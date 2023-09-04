@@ -17,16 +17,9 @@ body, html {
     margin: 0 auto;
 }
 
-a1 {
+a {
     color: white;
-    margin: 0 15px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-a2 {
-    color: white;
-    margin: 0 5px;
+    margin: 0 10px;
     text-decoration: none;
     font-weight: bold;
 }
