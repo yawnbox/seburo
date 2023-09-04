@@ -1,53 +1,52 @@
-        body, html {
-            height: 100%;
-            margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: gray;
-        }
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+}
 
-        /* Set up a flex container to center items on both axis */
-        .center {
-            display: flex;
-            flex-direction: column;  /* Stack children vertically */
-            justify-content: center;
-            align-items: center;
-            height: 100%;
-            max-width: 500px;  /* This ensures that it won't be wider than 500px */
-            width: 100%;      /* This ensures it takes the full width up to 500px */
-            margin: 0 auto;   /* This will center the div */
-        }
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+}
 
-        /* Styling the links */
-        a {
-            color: white;
-            margin: 0 10px;
-            text-decoration: none;
-            font-weight: bold;
-        }
+a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
 
-        a:hover {
-            text-decoration: underline;
-        }
+a:hover {
+    text-decoration: underline;
+}
 
-        .header {
-            top: 10px;
-        }
+.header {
+    top: 10px;
+    position: fixed;
+}
 
-        .label-box {
-            position: fixed;
-            right: 10px;
-            background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black */
-            padding: 5px 10px;
-            border-radius: 5px;
-            color: white;
-            font-size: 0.9em;
-        }
+.footer {
+    bottom: 10px;
+    position: fixed;
+}
 
-        .footer {
-            bottom: 10px;
-        }
+.label-box {
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 0.9em;
+}
 
-        p {
-            text-align: center;
-            margin: 0;  /* This will remove any default margins around the paragraph */
-        }
+p {
+    text-align: center;
+    margin: 0;
+}
